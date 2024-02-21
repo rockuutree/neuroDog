@@ -1,0 +1,23 @@
+{
+  "name": "neurodog",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "prettier": "^3.1.1",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "bun@1.0.26",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

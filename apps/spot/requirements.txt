@@ -1,0 +1,8 @@
+python-dotenv
+openai
+neurosity
+opencv-python
+requests
+setuptools
+elevenlabs
+tenacity
